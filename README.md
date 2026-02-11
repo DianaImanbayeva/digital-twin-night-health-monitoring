@@ -1,4 +1,4 @@
-# digital-twin-night-health-monitoring
+# Digital-twin-night-health-monitoring
 This repository contains a simulation-based implementation of a Digital Twin IoT system
 for personalized, non-clinical night-time health monitoring.
 
