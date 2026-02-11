@@ -1,0 +1,2 @@
+start,end,duration_minutes,SpO2_mean,SpO2_min,SpO2_p5,minutes_SpO2_below_warning,HR_mean,HR_min,HR_max,warnings,critical
+2026-01-09 23:00:00,2026-01-10 06:59:00,480,96.4,88.3,95.0,10,58.4,45,86,2,0

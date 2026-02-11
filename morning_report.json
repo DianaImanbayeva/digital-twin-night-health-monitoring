@@ -1,0 +1,56 @@
+{
+  "period": {
+    "start": "2026-01-09 23:00:00",
+    "end": "2026-01-10 06:59:00",
+    "duration_minutes": 480
+  },
+  "baseline_used": {
+    "SpO2_mean": 96.52,
+    "SpO2_std": 0.78,
+    "HR_mean": 58.12,
+    "HR_std": 4.45,
+    "SpO2_warning_threshold": 93.5152688172043,
+    "SpO2_critical_threshold": 88.0,
+    "HR_warning_threshold": 78.11827956989248,
+    "HR_critical_threshold": 100.0
+  },
+  "summary_metrics": {
+    "SpO2_min": 88.3,
+    "SpO2_mean": 96.4,
+    "SpO2_5th_percentile": 95.0,
+    "minutes_SpO2_below_warning": 10,
+    "HR_min": 45,
+    "HR_mean": 58.4,
+    "HR_max": 86
+  },
+  "events": {
+    "counts": {
+      "warning": 2,
+      "critical": 0
+    },
+    "top_events_preview": [
+      {
+        "start": "2026-01-10T03:00:00",
+        "end": "2026-01-10T03:09:00",
+        "duration_min": 10,
+        "min_spo2": 88.3,
+        "max_hr": 65,
+        "event_type": "SpO2_desaturation",
+        "severity": "warning"
+      },
+      {
+        "start": "2026-01-10T04:30:00",
+        "end": "2026-01-10T04:34:00",
+        "duration_min": 5,
+        "min_spo2": 95.7,
+        "max_hr": 86,
+        "event_type": "HR_elevation",
+        "severity": "warning"
+      }
+    ]
+  },
+  "non_clinical_notes": [
+    "Multiple low SpO₂ segments were detected. Consider checking device fit and sleep position.",
+    "Elevated heart rate segments were observed. Review trends and consider potential triggers (stress, temperature, discomfort)."
+  ]
+}

@@ -1,0 +1,3 @@
+sent_time,event_start,event_end,event_type,severity,recipient_name,recipient_role,channel,address,status
+2026-02-11 03:51:30.049658,2026-01-10 03:00:00,2026-01-10 03:09:00,SpO2_desaturation,warning,Patient,self,app,in-app,SENT
+2026-02-11 03:51:30.049989,2026-01-10 04:30:00,2026-01-10 04:34:00,HR_elevation,warning,Patient,self,app,in-app,SENT

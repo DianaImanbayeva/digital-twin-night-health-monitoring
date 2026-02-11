@@ -1,0 +1,3 @@
+start,end,duration_min,min_spo2,max_hr,event_type,severity
+2026-01-10 03:00:00,2026-01-10 03:09:00,10,88.3,65,SpO2_desaturation,warning
+2026-01-10 04:30:00,2026-01-10 04:34:00,5,95.7,86,HR_elevation,warning
